@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitFuelHub</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <link rel="icon" type="image/x-icon" href="muscle.png" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="left">
+        <h1><a href="#">FitFuelHub</a></h1>
+      </div>
+      <div class="right">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkBtn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <ul class="list">
+          <li><a href="#">Home</a></li>
+          <li><a href="diet.html" target="_self">Diet Plan</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="login.html" target="_self">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <br />
+    <div class="intro">
+      <h2>BMI Introduction</h2>
+      <p>
+        BMI stands for Body Mass Index. It is a measure of body fatness based on
+        height and weight that applies to adult men and women. BMI is calculated
+        by dividing the body mass (in kilograms or pounds) by the square of the
+        body height (in meters or feet). BMI is used to screen for weight
+        categories that may lead to health problems, such as underweight,
+        overweight, obesity, etc. BMI is not intended to diagnose the body
+        fatness or health of an individual, but it can provide a general
+        indication of whether a person has a healthy body weight for their
+        height45.
+      </p>
+      <p>
+        BMI is used to screen for weight categories that may lead to health
+        problems, such as underweight, overweight, obesity, etc. However, BMI is
+        not a diagnostic tool and it may not reflect the actual body fatness or
+        health status of an individual. Therefore, it is important to consult a
+        healthcare provider before making any changes to your diet or physical
+        activity based on your BMI.
+      </p>
+      <br>
+      <hr>
+
+      <h2>Calculate your BMI</h2>
+      <img src="formula-removebg-preview.png" height="100px" />
+    </div>
+    <hr>
+    <div>
+      <h2>BMI ranges and weight categories</h2>
+      <p>
+        The table below shows the BMI ranges and the weight categories for
+        adults according to the World Health Organization (WHO).
+      </p>
+      <table class="tab">
+        <tr>
+          <th>Weight category</th>
+          <th>BMI</th>
+        </tr>
+        <tr>
+          <td>Underweight</td>
+          <td><18.5</td>
+        </tr>
+        <tr>
+          <td>Normal weight</td>
+          <td>18.5–24.9</td>
+        </tr>
+        <tr>
+          <td>Overweight</td>
+          <td>25–29.9</td>
+        </tr>
+        <tr>
+          <td>Obesity</td>
+          <td>BMI of 30 or greater</td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <hr>
+    <br />
+    <h3>
+      Here is a sample video to understand a little more about BMI (Body Mass
+      Index)
+    </h3>
+
+    <br>
+    <br>
+
+    <div class="video">
+      <video width="430" height="250" controls>
+        <source src="bmi.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <br>
+    <hr>
+
+    <div class="content">
+      <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="input-group">
+            <label for="age">Age:</label>
+            <br>
+            <input type="number" id="age" placeholder="Enter age" />
+        </div>
+        <br>
+        <div class="input-group">
+            <label for="height">Height (in cm):</label>
+            <br>
+            <input type="number" id="height" placeholder="Enter height" />
+        </div>
+        <br>
+        <div class="input-group">
+            <label for="weight">Weight (in kg):</label>
+            <br>
+            <input type="number" id="weight" placeholder="Enter weight" />
+        </div>
+
+        <button id="calculate">Calculate BMI</button>
+        <br>
+        <div id="result"></div>
+        <div id="diet-link"></div>
+        
+    </div>    </div>
+  
+  </body>
+</html>
